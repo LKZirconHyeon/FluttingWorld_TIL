@@ -10,6 +10,8 @@
 
 ## Today I Learned:
 ### Week 1
-추후 편집 예정
+Hello World 업로드 완료
 ### Week 2
-추후 편집 예정
+#### Dart 언어의 정의
+- Google에서 설계하여 만든 JavaScript와 유사하지만 다른 "정적 언어", 유사한 언어로 JS, Java와 C#가 있음.
+- JS의 동적 언어의 단점인 성능과 
