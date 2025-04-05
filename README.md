@@ -11,6 +11,8 @@
 - 과제 없음. 다만 Dart 언어의 기본 중 고급 기능을 많이 배움. ✅
 ### Week 4
 - 장비 문제로 수업 사실상 취소. 단, 원래 이 때 Flutter의 기본 클래스들에 대해 배울 예정이었음.
+- StatelessWidget, MaterialApp, StatefulWidget UI 클래스
+- 상태 변경과 State 클래스, Scaffold와 AppBar 클래
 - 계획: 4주차 과제 완료할 것 - 현재 시각을 표시하는 앱 (1초 갱신)을 상단 앱바 타이틀 중앙에 표시하여 코드를 올리기
 ### Week 5
 - 화면 배치에 쓰거나 위치, 정렬, 크기 변경, 그리고 버튼 계열과 화면 표시용에 사용하는 기본적인 위젯들에 대해 알고 실습함.
@@ -55,3 +57,12 @@ Hello World 업로드 완료
     - List는 순서가 있는 연속된 자료를 표현할 때 사용한다.
     - Map은 키와 값으로 쌍 지어진 사전 형태 (Python: 딕셔너리)의 자료 구조를 표현할 때 사용한다.
     - Set은 중복되지 않는 집합을 표현할 때 사용한다.
+
+### 📖 Week 4 - 프로젝트 구조와 웹 구조 ✏️
+- 핫 리로드 (Hot Reload) 자동반영은 실행 중 Ctrl+S 저장으로 자동 반영 가능
+- 위젯에서 위젯으로 값 전달은 생성자를 사용함
+- State 클래스를 이용해 상태를 변경하고 변경된 상태에 따라 UI 화면을 변경함
+- _incrementCounter()에 의해 setState()가 호출됨
+- setState() 호출됨에 따라 Scaffold 영역이 갱신
+- MyApp >> MaterialApp >> Scaffold >> appBar, body
+### 📖 Week 5 - 기본 위젯 ✏️
